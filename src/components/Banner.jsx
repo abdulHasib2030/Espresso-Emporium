@@ -26,20 +26,20 @@ const Banner = () => {
                     <h4 className='font-font-rancho text-sm font-semibold'>Awesome Aroma</h4>
                     <p className='font-font-raleway'>You will definitely be a fan of the design & aroma of your coffee</p>
                 </div>
-                <div className='text-start'>
+                <div className='text-start space-y-2'>
                     <img src={icon2} alt="" />
                     <h4 className='font-font-rancho text-sm font-semibold'>High Quality</h4>
                     <p className='font-font-raleway'>We served the coffee to you maintaining the best quality</p>
                 </div>
-                <div className='text-start'>
+                <div className='text-start space-y-2'>
                     <img src={icon3} alt="" />
                     <h4 className='font-font-rancho text-sm font-semibold'>Pure Grades</h4>
                     <p className='font-font-raleway'>The coffee is made of the green coffee beans which you will love</p>
                 </div>
-                <div className='text-start'>
+                <div className='text-start space-y-2'>
                     <img src={icon4} alt="" />
-                    <h4>Proper Roasting</h4>
-                    <p>Your coffee is brewed by first roasting the green coffee beans</p>
+                    <h4 className='font-font-rancho text-sm font-semibold'>Proper Roasting</h4>
+                    <p className='font-font-raleway'>Your coffee is brewed by first roasting the green coffee beans</p>
                 </div>
 
             </div>
