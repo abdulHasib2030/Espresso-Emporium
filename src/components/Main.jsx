@@ -11,7 +11,7 @@ import image6 from '../assets/images/cups/Rectangle 15.png'
 import image7 from '../assets/images/cups/Rectangle 16.png'
 import image8 from '../assets/images/cups/Rectangle 9.png'
 
-const Main = ({coffees}) => {
+const Main = ({coffees, coffeee, setCoffees}) => {
     return (
         <div className=''>
             <div className='w-[70%] mx-auto my-20'>
@@ -24,9 +24,9 @@ const Main = ({coffees}) => {
                     </div>
                 </div>
                 <div className='my-10'>
-                    <div className='grid grid-cols-2 gap-14'>
+                    <div className='grid md:grid-cols-2 gap-14'>
                         {
-                            coffees.map(coffee =>  <CoffeeCard coffee={coffee}></CoffeeCard>)
+                            coffeee.map(coffee =>  <CoffeeCard coffee={coffee} coffees={coffeee} setCoffees={setCoffees}></CoffeeCard>)
                         }
                     </div>
                    

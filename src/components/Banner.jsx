@@ -19,7 +19,7 @@ const Banner = () => {
         </div>
         
         {/* // banner icon section */}
-        <div className='bg-[#ECEAE3] h-72 items-center justify-between flex'>
+        <div className='bg-[#ECEAE3] p-8 items-center justify-between flex'>
             <div className='container mx-auto grid grid-cols-2 md:grid-cols-4 gap-4'>
                 <div className='text-start space-y-2'>
                     <img src={icon1} alt="" />

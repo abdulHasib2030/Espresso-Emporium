@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             <footer className="footer  bg-base-200 text-base-content p-10">
-                <div className='w-[70%] mx-auto flex justify-between'>
+                <div className='md:w-[70%] mx-auto flex justify-between'>
                     <nav className='space-y-3'>
                         <img src={logo} className='w-20' alt="" />
                         <h1 className='text-2xl font-font-rancho'>Espresso Emporium</h1>

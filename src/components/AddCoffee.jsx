@@ -31,7 +31,7 @@ const AddCoffee = () => {
                 if (data.insertedId) {
                     Swal.fire({
                         title: "Success!",
-                        text: "User Added Successfully",
+                        text: "Coffee Added Successfully",
                         icon: 'success',
                         confirmButtonText: 'Cool'
                     })
@@ -41,7 +41,7 @@ const AddCoffee = () => {
     }
     return (
         <div>
-            <Nav></Nav>
+            
             <div className='max-w-7xl mx-auto my-10'>
                 <Link to={'/'}>
                 <h1 className='mb-10 font-bold font-font-rancho text-3xl flex  gap-2 items-center'> <FaArrowLeft /> Back to home</h1>
@@ -62,8 +62,8 @@ const AddCoffee = () => {
                                 <input type="text" name="name" placeholder="Coffee Name" className="input input-bordered w-full " />
                             </div>
                             <div className="w-1/2">
-                                <label htmlFor="">Available Quantity</label> <br />
-                                <input type="text" name="quantity" placeholder="Available Quantity" className="input input-bordered w-full " />
+                                <label htmlFor="">Chef</label> <br />
+                                <input type="text" name="quantity" placeholder="Enter coffee chef" className="input input-bordered w-full " />
                             </div>
                         </div>
                         <div className="md:flex gap-4 ">
